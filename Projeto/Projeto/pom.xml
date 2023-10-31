@@ -11,6 +11,7 @@
 	<groupId>br.mackenzie</groupId>
 	<artifactId>Projeto</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar<packaging>
 	<name>Projeto</name>
 	<description>Entrega Projeto PS2</description>
 	<properties>
