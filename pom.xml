@@ -9,11 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.mackenzie</groupId>
-	<artifactId>ENTREGAFINALPS2_NORMAL</artifactId>
+	<artifactId>EntregaFinalPS2_NORMAL</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar<packaging>
-	<name>ENTREGAFINALPS2_NORMAL</name>
-	<description>Entrega ENTREGAFINALPS2_NORMAL PS2</description>
+	<name>EntregaFinalPS2_NORMAL</name>
+	<description>Entrega EntregaFinalPS2_NORMAL PS2</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

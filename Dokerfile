@@ -9,7 +9,7 @@ RUN mvn clean package -Pprod -DskipTests
 # Package stage 
 #
 FROM openjdk:17-jdk-slim
-COPY --from=build /target/ENTREGAFINALPS2_NORMAL.jar app.jar
+COPY --from=build /target/EntregaFinalPS2_NORMAL.jar app.jar
 
 ENV PORT=8080
 EXPOSE 8080
