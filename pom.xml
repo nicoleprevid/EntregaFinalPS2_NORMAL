@@ -11,7 +11,7 @@
 	<groupId>br.mackenzie</groupId>
 	<artifactId>app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar<packaging>
+	<packaging>jar</packaging>
 	<name>app</name>
 	<description>Entrega PS2</description>
 	<properties>
