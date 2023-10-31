@@ -9,7 +9,7 @@ RUN mvn clean package -Pprod -DskipTests
 # Package stage 
 #
 FROM openjdk:17-jdk-slim
-COPY --from=build /target/app.jar app.jar
+COPY --from=build /target/*jar app.jar
 
 ENV PORT=8080
 EXPOSE 8080
