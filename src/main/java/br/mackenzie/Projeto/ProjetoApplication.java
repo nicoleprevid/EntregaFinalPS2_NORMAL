@@ -8,7 +8,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
-
 @SpringBootApplication
 @CrossOrigin
 public class ProjetoApplication {
@@ -17,4 +16,15 @@ public class ProjetoApplication {
 		SpringApplication.run(ProjetoApplication.class, args);
 	}
 
+}
+
+@Configuration
+public class CorsConfiguration implements WebMvcConfigurer {
+
+    @Override
+    public void addCorsMappings(CorsRegistry registry) {
+        registry.addMapping("/**")
+            .allowedOrigins("*")
+            .allowedMethods("GET", "POST", "PUT", "DELETE");
+    }
 }
