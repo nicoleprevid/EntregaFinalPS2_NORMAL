@@ -1,5 +1,8 @@
 # API de Comércio de Computadores
 
+Feito em colaboração com : **@hyteves e @Feedamasceno**
+
+
 Este repositório contém uma API em Java para um site de comércio de computadores voltado para vendedores. Abaixo, uma breve explicação de cada componente do projeto:
 A aplicação estará acessível em https://projeto-ps2.onrender.com/. Use: 
 /computadores ;
